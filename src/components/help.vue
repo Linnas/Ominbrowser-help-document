@@ -137,7 +137,7 @@ export default {
        pic_legend:'Box plot and violin plot to relect differential expression of genes across different cell groups. A real-time F-test is adopted to evaluate significance, with p values marked on the plot title.',
        pic_annotation:['Gene expression query can be performed similarly, with averaged expression value returned for multiple inputs.', 'Cell types & other cell annotations can be used to group the data.'],
       },{
-       pic_legend:'gene-cluster heatmap displays gene expression patterns between clusters. Each unit of matrix represents average gene expression within the cell group.',
+       pic_legend:'Gene-cluster heatmap displays gene expression patterns between clusters. Each unit of matrix represents average gene expression within the cell group.',
        pic_annotation:['Click heatmap plot', 'Gene set query.'],
       },{
        pic_legend:'2D scatter plot, with each point representing a single cell and axis representing two genes. Pearson correlation efficiency is displayed in the title',
@@ -152,7 +152,7 @@ export default {
        pic_legend:'A heatmap is used to display between gene similarity or cluster similarity',
        pic_annotation:['Gene-wise correlation heatmap', 'Input gene set..', 'Cell filtering.', 'Select query methods. Correlations can be calculated on either cell-by-cell or cluster-by-cluster basis.', 'Select genes or clusters to query.'],
       },{
-       pic_legend:'marker identification, which will allow us to verify the identity of certain clusters and help indentify any unknown clusters, is displayed via table with multiple statistics.',
+       pic_legend:'Marker identification, which will allow us to verify the identity of certain clusters and help indentify any unknown clusters, is displayed via table with multiple statistics.',
        pic_annotation:[' Identification of all markers for each cluster is available.','"Top" limits the number of genes shown in the returned table. "Cutoff" provides a threshold and "Gene set" provides filtration genes option.', 'Choose the test methods, which we have provided t-test and wilcoxon method.', 'Show limited number of xx genes.', 'Show results of positive or negative log2 fold change, or both.', ' Sort by different criterias'],
       },{
        pic_legend:'Supervised annotations utilize scibet algorithm to annotate your dataset, the result is displayed as these four diagrams.',
