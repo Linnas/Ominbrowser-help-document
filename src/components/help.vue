@@ -8,7 +8,7 @@
     
     <v-row class="custom_row" style="margin-left: 100px;margin-top: 180px;">
       <v-col cols="3">
-        <v-list class="pa-8" style="position: fixed;">
+        <v-list style="position: fixed;">
           <v-list-group
             v-for="item in items"
             :key="item.title"
