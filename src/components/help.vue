@@ -45,7 +45,7 @@
         </div>
       </v-col>
       <v-col cols="1">
-        <button type="button" aria-label="Scroll to top" title="Scroll to top" class="v-btn v-btn--bottom v-btn--contained v-btn--fab v-btn--fixed v-btn--right v-btn--round theme--dark v-size--large green" style="transform-origin: center center;"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-up theme--dark" @click="$vuetify.goTo(target, options)"></i></span></button>
+        <button @click="$vuetify.goTo(target, options)" type="button" aria-label="Scroll to top" title="Scroll to top" class="v-btn v-btn--bottom v-btn--contained v-btn--fab v-btn--fixed v-btn--right v-btn--round theme--dark v-size--large green" style="transform-origin: center center;"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-up theme--dark" ></i></span></button>
       </v-col>
     </v-row>
     </v-container>
