@@ -1,0 +1,272 @@
+[
+    {
+        "img": "pic_1.png",
+        "subtitle": "Search Studies(statistic)",
+        "pic_legend": "Statistic data can be visualized via pie chart and histogram.",
+        "pic_annotation": [
+            "You can hide the side navigation to icons.",
+            "Switch between data list and statistic graphs.",
+            "Publication Date is identical to the one in lists.",
+            "Same with lists."
+        ]
+    },
+    {
+        "img": "pic_2.png",
+        "subtitle": "Search Studies(list)",
+        "pic_legend": "A list of all datasets based on keywords. Each entity consists of the title, number of cells, and publication date. More detailed information is displayed as tags, which can be refined by the upper search box.",
+        "pic_annotation": [
+            "Filter the research field.",
+            "Choose the range of publication date of the article.",
+            "Choose the sequencing platform.",
+            "Choose the tissues  you interested in.",
+            "Choose the publication journal."
+        ]
+    },
+    {
+        "img": "pic_3.png",
+        "subtitle": "Search Genes",
+        "pic_legend": "Each entity is supplied with the box plot to show the log2(TPM) of all clusters in this dataset.",
+        "pic_annotation": [
+            "Search by genes.",
+            "Input gene names(with auto-completion).",
+            "Filter by F-test",
+            "Sort by ascending or descending."
+        ]
+    },
+    {
+        "img": "pic_4.png",
+        "subtitle": "Cell Ontology",
+        "pic_legend": "Besides gene search, you can also filter datasets by cell ontology.",
+        "pic_annotation": [
+            "Click cell ontology.",
+            "input cell names as keywords.",
+            "Sort by publication date or cell number."
+        ]
+    },
+    {
+        "img": "pic_5.png",
+        "subtitle": "Integrated Dataset",
+        "pic_legend": "12 integrated datasets are provided.",
+        "pic_annotation": [
+            "Click integrated datasets.",
+            "Keywords will be highlighted."
+        ]
+    },
+    {
+        "img": "pic_6.png",
+        "subtitle": "Dataset Abstract",
+        "pic_legend": "After you have clicked into an entity, an abstract outlines the background of this dataset. Similar cell ontology and gene ontology are also shown here.",
+        "pic_annotation": [
+            "Load the dataset you chose.",
+            "Article figures can be viewed via this button.",
+            "Look for the related publicatons by adjusting the ontology distance."
+        ]
+    },
+    {
+        "img": "pic_7.png",
+        "subtitle": "Embed Plot",
+        "pic_legend": "We provide two demsional reduction methods and genes expression visiulization.",
+        "pic_annotation": [
+            "Click Dimensional Reduction.",
+            "Both t-SNE & UMAP are available.",
+            "Gene expression can be searched and displayed via heatmap (log2(TPM+1)). Average expression value will be displayed for multiple genes.",
+            "Groupby functions. Cells can be grouped and colored according to their cell types. Other groupby choices are also available according to each dataset.",
+            "Cell filtering. Display only cell groups of interest."
+        ]
+    },
+    {
+        "img": "scibet_cluster.png",
+        "subtitle": "Default color",
+        "pic_legend": "datasets without original cell type will be colored by  Scibet Tabula Muris initially in t-SNE & UMAP",
+        "pic_annotation": []
+    },
+    {
+        "img": "embed_3d.png",
+        "subtitle": "Embed Plot 3D",
+        "pic_legend": "Improvement of 3D tSNE & UMAP plot – better observation perspectives ",
+        "pic_annotation": []
+    },
+    {
+        "img": "lasso_select.png",
+        "subtitle": "Cell type prediction",
+        "pic_legend": "Use lasso selection, box selection etc. tools to select cells for celltype prediction.",
+        "pic_annotation": []
+    },
+    {
+        "img": "celltype_result.png",
+        "subtitle": "",
+        "pic_legend": "Show the cell type prediction results in tabular format.",
+        "pic_annotation": []
+    },
+    {
+        "img": "pic_8.png",
+        "subtitle": "Gene Expression",
+        "pic_legend": "Genes expression level over all clusters",
+        "pic_annotation": [
+            "All the selected genes are compared with each other via gene expression graphs.",
+            "Average expression level on the whole graph."
+        ]
+    },
+    {
+        "img": "pic_9.png",
+        "subtitle": "PAGA",
+        "pic_legend": "PAGA graph shows the conncetivity within clusters, each node represents a cell group, differentiated by their color, with node size indicating cell number, the width of edges reflects similarity between conncected cell groups.",
+        "pic_annotation": [
+            "Show PAGA graph.",
+            "Gene expression query can be performed similarly to the t-SNE plot.",
+            "Each cluster is sorted descendingly by cell number.",
+            "Similarity threshold: Only display edges above a certain threshold to reflect major trajectories."
+        ]
+    },
+    {
+        "img": "pic_10.png",
+        "subtitle": "Box Plot",
+        "pic_legend": "Box plot and violin plot reflect the differential expression of genes across different cell groups. A real-time F-test is applied to evaluate significance, with p values marked on the plot title.",
+        "pic_annotation": [
+            "Click differential expression.",
+            "Different plot methods can be switched via tabs. ",
+            "Cell types & other cell annotations can be used to group the data.",
+            "Whether or not the scatter plot will be shown on the box plot",
+            "Gene expression query can be performed similarly, with average expression value returned for multiple inputs."
+        ]
+    },
+    {
+        "img": "pic_11.png",
+        "subtitle": "Violin Plot",
+        "pic_legend": "Box plot and violin plot to relect differential expression of genes across different cell groups. A real-time F-test is adopted to evaluate significance, with p values marked on the plot title.",
+        "pic_annotation": [
+            "Gene expression query can be performed similarly, with averaged expression value returned for multiple inputs.",
+            "Cell types & other cell annotations can be used to group the data."
+        ]
+    },
+    {
+        "img": "pic_12.png",
+        "subtitle": "Heatmap Plot",
+        "pic_legend": "Gene-cluster heatmap displays gene expression patterns between clusters. Each unit of matrix represents average gene expression within the cell group.",
+        "pic_annotation": [
+            "Click heatmap plot",
+            "Gene set query."
+        ]
+    },
+    {
+        "img": "facs.png",
+        "subtitle": "Normal Plot",
+        "pic_legend": "2D scatter plot, with each point representing a single cell and axis representing two genes. Pearson correlation efficiency is displayed in the title",
+        "pic_annotation": [
+            "Click correlation",
+            "Choose plot type",
+            "Input signature A",
+            "Tabs can be used to switch between correlation, similar genes and correlation heatmap",
+            "Input signature B",
+            "Cell filtering."
+        ]
+    },
+    {
+        "img": "nfacs.png",
+        "subtitle": "",
+        "pic_legend": "",
+        "pic_annotation": []
+    },
+    {
+        "img": "pic_14.png",
+        "subtitle": "Density Plot",
+        "pic_legend": "The density plot displays four subplots within one graph. The two histograms represent the expression level of signature A and signature B separately, while histogram2dcontour graph on the bottom left gives a more intuitive expression.",
+        "pic_annotation": [
+            "Tabs can be used to switch between correlation, similar genes and correlation heatmap",
+            "Input signature A",
+            "Density plot shows more details than normal(scatter) plot",
+            "Input signature B.",
+            "Cells can be colored by different groups."
+        ]
+    },
+    {
+        "img": "pic_15.png",
+        "subtitle": "Similar Gene",
+        "pic_legend": "Query all the similar genes of the selected gene. The result is sorted by the Pearson coefficient. The result is displayed via table.",
+        "pic_annotation": [
+            "Tabs can be used to switch between correlation, similar genes and correlation heatmap",
+            "Query gene here.",
+            "Choose preferred groupby methods."
+        ]
+    },
+    {
+        "img": "pic_16.png",
+        "subtitle": "Heatmap",
+        "pic_legend": "A heatmap is used to display between gene similarity or cluster similarity",
+        "pic_annotation": [
+            "Gene-wise correlation heatmap",
+            "Input gene set..",
+            "Cell filtering.",
+            "Select query methods. Correlations can be calculated on either cell-by-cell or cluster-by-cluster basis.",
+            "Select genes or clusters to query."
+        ]
+    },
+    {
+        "img": "pic_17.png",
+        "subtitle": "Marker Info",
+        "pic_legend": "Marker identification, which will allow us to verify the identity of certain clusters and help indentify any unknown clusters, is displayed via table with multiple statistics.",
+        "pic_annotation": [
+            " Identification of all markers for each cluster is available.",
+            "\"Top\" limits the number of genes shown in the returned table. \"Cutoff\" provides a threshold and \"Gene set\" provides filtration genes option.",
+            "Choose the test methods, which we have provided t-test and wilcoxon method.",
+            "Show limited number of xx genes.",
+            "Show results of positive or negative log2 fold change, or both.",
+            " Sort by different criterias"
+        ]
+    },
+    {
+        "img": "pic_18.png",
+        "subtitle": "Annotation Statistics",
+        "pic_legend": "Supervised annotations utilize scibet algorithm to annotate your dataset, the result is displayed as these four diagrams.",
+        "pic_annotation": [
+            "The results of annotations can be viewed as these four methods, you can click tabs to switch between functions.",
+            "Choose the test dataset here."
+        ]
+    },
+    {
+        "img": "pic_19.png",
+        "subtitle": "Sankey Diagram",
+        "pic_legend": "Use Sankey graph show the relationship.",
+        "pic_annotation": [
+            "The results of annotations can be viewed via four methods, you can click to switch between functions."
+        ]
+    },
+    {
+        "img": "pic_20.png",
+        "subtitle": "Classification Plot",
+        "pic_legend": "The map between your dataset index and the predicted cell types.",
+        "pic_annotation": ""
+    },
+    {
+        "img": "pic_21.png",
+        "subtitle": "Classification Probatility",
+        "pic_legend": "The Probability of the types of your datsets",
+        "pic_annotation": ""
+    },
+    {
+        "img": "pic_22.png",
+        "subtitle": "Cell metadata analysis",
+        "pic_legend": "Cell metadata outlines the overall information of this dataset.",
+        "pic_annotation": [
+            "Show the Metadata",
+            "Choose group by various index",
+            "Choose color by various index",
+            "Show the results as percentage or numberal"
+        ]
+    },
+    {
+        "img": "pic_23.png",
+        "subtitle": "GO enrichment analysis",
+        "pic_legend": "Here we use interactive table to display GO enrichment results, User can rank ontologies according to their interest",
+        "pic_annotation": [
+            "Perform genset analysis",
+            "Show top x number results or use value as a threshold",
+            "Choose species",
+            "Input the genesets which interest you",
+            "Show all genes or protein-coding genes only",
+            "Top number",
+            "The results will be sorted as your choice",
+            "Select GO term types."
+        ]
+    }
+]
