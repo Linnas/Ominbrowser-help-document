@@ -52,7 +52,21 @@
           </div>
         </v-col>
         <v-col cols="1" v-if="!$vuetify.breakpoint.mobile">
-          <button @click="$vuetify.goTo(target, options)" type="button" aria-label="Scroll to top" title="Scroll to top" class="v-btn v-btn--bottom v-btn--contained v-btn--fab v-btn--fixed v-btn--right v-btn--round theme--dark v-size--large green" style="transform-origin: center center;"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-up theme--dark" ></i></span></button>
+          <v-fab-transition>
+            <v-btn
+              v-show="!hidden"
+              @click="$vuetify.goTo(target, options)"
+              color="green"
+              dark
+              fixed
+              bottom
+              right
+              fab
+            >
+              <v-icon>mdi-chevron-up</v-icon>
+            </v-btn>
+          </v-fab-transition>
+          <!-- <button @click="$vuetify.goTo(target, options)" type="button" aria-label="Scroll to top" title="Scroll to top" class="v-btn v-btn--bottom v-btn--contained v-btn--fab v-btn--fixed v-btn--right v-btn--round theme--dark v-size--large green" style="transform-origin: center center;"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate mdi mdi-chevron-up theme--dark" ></i></span></button> -->
         </v-col>
       </v-row>
   </v-container>
@@ -66,6 +80,7 @@ export default {
   name: 'help',
    data: () => ({
       target:0,
+      hidden:false,
       homepage: 'http://omnibrowser.abiosciences.com',
       options: {
           duration: 300,
